@@ -7,16 +7,32 @@
     box-sizing: border-box;
   }
 
+.header {background-color: cornflowerblue;}
+
 body {
-    font-family: 'Joan', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  font-family: 'Joan', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  flex-direction: row;
+}
+
+.nav-link{
+  padding: 0 20 0 20;
+}
+
+
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    min-height: 70px;
   }
 
 .picture {width: 10%;}
